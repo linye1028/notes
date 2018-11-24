@@ -4,6 +4,9 @@
 git init
 2、连接到远程仓库
 git remote add origin git@github.com:linye1028/python_note.git
+如果报错，执行
+git remote rm origin
+
 3、更新远程到本地
 git pull git@github.com:linye1028/python_note.git
 4、添加本地文件
