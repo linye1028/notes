@@ -1,1 +1,14 @@
 https://www.cnblogs.com/hfxm/p/5593812.html
+
+1、初始化
+git init
+2、连接到远程仓库
+git remote add origin git@github.com:linye1029/keras.git
+3、更新远程到本地
+git pull git@github.com:linye1029/keras.git  
+4、添加本地文件
+git add .
+5、添加信息
+git commit –m “这里写下你自己的记录本次提交内容的信息”
+6、更新本地文件到远程
+git push git@github.com:linye1029/keras.git
